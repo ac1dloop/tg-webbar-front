@@ -6,4 +6,4 @@ function main(){
     c.innerHTML = 'Hello World!'
 }
 
-windows.onload = main
+window.onload = main
