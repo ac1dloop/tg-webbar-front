@@ -1,8 +1,5 @@
 import * as THREE from 'three';
 
-//clear body in case there is garbage
-document.body.innerHTML = ''
-
 const scene = new THREE.Scene();
 const camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 0.1, 1000 );
 
